@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --accent: #8B5CF6; }
+
+@layer components {
+  .btn { @apply inline-flex items-center justify-center gap-2 font-medium transition-colors focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[var(--accent)]; }
+  .btn-white { @apply bg-white text-black hover:bg-white/90 shadow-[0_8px_24px_rgba(0,0,0,0.35)] rounded-[14px] h-14 w-full; }
+  .btn-outline { @apply bg-transparent text-white border border-white/20 hover:bg-white/5 rounded-[14px] h-14 w-full; }
+}
