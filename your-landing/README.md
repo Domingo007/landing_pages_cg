@@ -1,7 +1,4 @@
-============================================================
-Career Guide — Landing (Vite + React + Tailwind + Hero MP4)
-Repo: https://github.com/Domingo007/landing_pages_cg.git
-============================================================
+Career Guide — Landing Pages
 
 Opis
 -----
@@ -110,8 +107,3 @@ npm run preview  → lokalny serwer podglądu buildu
 Licencja
 ---------
 MIT — pełna dowolność użycia i modyfikacji.
-
-Kontakt / Repo
----------------
-Repo: https://github.com/Domingo007/landing_pages_cg.git
-Issues i PR: mile widziane :)
