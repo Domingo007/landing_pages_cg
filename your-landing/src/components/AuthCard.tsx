@@ -3,15 +3,15 @@ import OAuthButton from "./OAuthButton";
 export default function AuthCard() {
   return (
     <aside
-      className="bg-[#1E1F22] rounded-[28px] shadow-[0_8px_24px_rgba(0,0,0,0.35)] border border-[rgba(255,255,255,.08)] p-6 sm:p-8 w-full max-w-[440px] mx-auto"
+      className="bg-[#1E1F22] rounded-[28px] shadow-[0_8px_24px_rgba(0,0,0,0.35)] border border-[rgba(255,255,255,.08)] p-6 sm:p-8 w-full max-w-[440px] mx-auto xl:h-full"
       aria-labelledby="auth-title"
     >
       <h1 id="auth-title" className="text-3xl sm:text-4xl font-extrabold leading-tight">
         Dołącz do Nas!
       </h1>
-      <p className="mt-2 text-[rgba(255,255,255,.75)]">Sign up in just ten seconds</p>
 
-      {/* Mobile: dodatkowe CTA */}
+      {/* usunięty podtytuł */}
+
       <button className="btn btn-white sm:hidden mt-4 rounded-full h-12 w-full" aria-label="Sign up to chat">
         Sign Up to Chat
       </button>
@@ -36,9 +36,7 @@ export default function AuthCard() {
       </button>
 
       <p className="mt-4 text-xs text-[rgba(255,255,255,.75)]">
-        Kontynuując, zgadzasz się z{" "}
-        <a href="#" className="underline hover:text-white">Regulaminem</a>{" "}
-        i{" "}
+        Kontynuując, zgadzasz się z <a href="#" className="underline hover:text-white">Regulaminem</a> i{" "}
         <a href="#" className="underline hover:text-white">Polityką prywatności</a>.
       </p>
     </aside>
